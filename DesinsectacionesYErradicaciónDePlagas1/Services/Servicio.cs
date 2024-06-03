@@ -10,12 +10,11 @@ namespace DesinsectacionesYErradicaciónDePlagas1.Services
 {
     public class Servicio
     {
-        public Cliente Cliente { get; set; } // Reemplazamos ICliente por Cliente
+        public Cliente Cliente { get; set; } 
         public List<IEmpleado> PersonalAsignado { get; set; }
         public IAnimal Plaga { get; set; }
         public double Gastos { get; set; }
-        public List<TipoRecurso> RecursosUsados { get; set; } // Reemplazamos Recurso por TipoRecurso
-
+        public List<TipoRecurso> RecursosUsados { get; set; } 
 
         public Servicio()
         {
